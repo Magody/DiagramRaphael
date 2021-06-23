@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael</title>
+
+    <script src="raphael.min.js"></script>
+
+    <script src="graffle.js"></script>
+    <script>
+        /*
+        window.onload = function(){
+
+            
+
+            var p = Raphael("paper")
+            p.rect(0,0,400,400)
+
+            var rect_ref = p.rect(20,20,50,50)
+                .attr({
+                    fill: "red",
+                    stroke: "none",
+                    cursor: "pointer"
+                })
+                .click(function(){
+                    this.attr({fill: "blue"})
+                })
+                .hover(function(){
+                    this.attr({fill:"green"})
+                },function(){
+                    this.attr({fill: "red"})
+                })
+
+            p.circle(100, 100, 30)
+                .attr({
+                    "stroke-width": 10,
+                    fill: "90-#f00-#000"
+                })
+                .animate({
+                    cx: 300,
+                    transform: "s2"  // r180
+                }, 1000, "ease-out")  // elastic
+                .click(function(){
+                    rect_ref.animate({
+                        y:300
+                    }, 1000, "elastic")
+                })
+
+            p.text(70, 250, "Hello There")
+                .attr({
+                    "font-family": "Georgia",
+                    "font-size": 20
+                }).animate({
+                    y:350
+                }, 500, "elastic")
+
+            
+                // p.path(" M 100 100 L 200 200")
+
+
+                // p.path(" M 100 100 L 200 300 400 500")
+
+                p.path(" M 100 200 200 200 300 200")
+                    .animate({
+                        path: "M 100 200 200 350 300 200"
+                    }, 1000, "elastic")
+
+                p.setStart();
+                p.circle(50, 50, 20)
+                    .attr({
+                        fill: "45-#000-#f00"
+                    })
+                p.text(50, 50, "button")
+                    .attr({
+                        fill: "white"
+                    })
+                var btn = p.setFinish();
+
+                btn.animate({
+                    transform: "r180"
+                }, 1000)
+               
+
+        }
+
+         */
+        
+
+    </script>
+    <style>
+        #paper{
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+        }
+
+        #holder{
+            width: 900px;
+            height: 700px;
+            margin: 0 auto;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pape">
+
+    </div>
+
+    <div id="holder">
+
+    </div>
+    
+</body>
+</html>
